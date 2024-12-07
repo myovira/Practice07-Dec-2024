@@ -3,3 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+.cotainer{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    background-color: azure;
+    gap: 10px;
+    width: 100%;
+    
+
+}
+.cotainer button{
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+}
+.cotainer button :hover{
+    color: #fff;
+    background-color: #000;
+    animation: bubble 0.4s ease-out;
+
+}
